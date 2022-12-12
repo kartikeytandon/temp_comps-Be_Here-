@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;  
+}
+
+/* Title Bar  */
+
+.title_bar {
+  display: flex;
+  padding: 1.3rem;
+  background-color: #D0C7F6;
+  list-style: none;
+  font-weight: 700;
+}
+#title {
+  margin-left: 8rem;
+}
+.title_bar li {
+  margin-right: 6rem;
+}
+
+/* Title Contents */
+#imgTitle {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.items {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  list-style: none;
+}
+#vertical {
+  margin-left: 3.6rem;
+}
+#sku {
+  margin-left: 7.8rem;
+}
+#mfg {
+  margin-left: 6.4rem;
+}
+#modi {
+  margin-left: 7.7rem;
+}
